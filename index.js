@@ -1,7 +1,3 @@
 
-const fs = require('fs');
-
-if (!fs.existsSync('./jobgenie')){
-    fs.mkdirSync('./jobgenie');
-    console.log('jobgenie directory created successfully');
-}
+// Set up and run the server
+require('./jobgenie/server.js');
